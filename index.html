@@ -8,10 +8,10 @@
 <body>
     <section id="hero">
       <div id="hero-box" >
-        <h1>Hello    3    js home-task </h1>
+        <h1 id="header">Hello    3    js home-task </h1>
         <p id="task" > Hi, click buttons pls ;) </p>
-        <button type="button" onclick="document.getElementById('task').innerHTML = 'Hello JavaScript!'">Click Me!</button>
-        <button type="button" onclick="document.getElementById('task').innerHTML = 'Hello '">Click Me!</button>
+        <button id="but1" type="button" onclick="document.getElementById('task').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+        <button id="but2" type="button" onclick="document.getElementById('task').innerHTML = 'Hello '">Click Me!</button>
        
 
       </div>
@@ -22,7 +22,7 @@
 
       <div class="t1">
         <h2>task 1</h2>
-        <h3>Slug — це завжди рядок у нижньому регістрі,<br /> слова якого розділені тире.</h3>
+        <!-- <h3>Slug — це завжди рядок у нижньому регістрі,<br /> слова якого розділені тире.</h3> -->
         <p id="task-1/1" >t1</p>
         <p id="task-1/2" >t2</p>
         <p id="task-1/3" >t3</p>
@@ -75,12 +75,18 @@
     </script>
 
     <script>
-        document.getElementById("js-h-t").style.backgroundColor = "grey";
+        document.getElementById("js-h-t").style.backgroundColor = "#d09eae";
     </script>
+        <script>
+          document.getElementById("js-h-t").style.color = "#1f1823";
+      </script>
+          <script>
+            document.getElementById("js-h-t").style.borderRadius = "8px";
+        </script>  
 
-    <script>
+    <!-- <script>
         window.alert( 'Hello ');
-    </script>
+    </script> -->
 
                <!-- ================================hero -->
       <script>
@@ -104,14 +110,51 @@
        </script>
 
       <script>
-        document.getElementById("hero-box").style.backgroundColor = "#fff456";
+        document.getElementById("hero-box").style.backgroundColor = "#9173a2";
        </script>
+
+         <script>
+          document.getElementById("hero").style.borderRadius = "8px";
+         </script>
 
        <script>
-              document.getElementById("hero").style.backgroundColor = "#fff456";
+              document.getElementById("hero").style.backgroundColor = "#9173a2";
        </script>
-    
-
+     <script>
+         document.getElementById("hero").style.color = "#1f1823";
+     </script>   
+     <script>
+        document.getElementById("task").style.marginLeft="auto";
+     </script>  
+    <script>
+        document.getElementById("task").style.marginRight="auto";
+    </script>   
+       <script>
+        document.getElementById("header").style.marginLeft="auto";
+      </script>
+       <script>
+         document.getElementById("header").style.marginRight="auto";
+       </script>
+<!-- ==================================== -->
+<script>
+  document.getElementById("but1").style.color="#1f1823";
+ </script>
+ <script>
+   document.getElementById("but1").style.backgroundColor="#d79eb9";
+ </script>
+   <script>
+     document.getElementById("but1").style.borderRadius="10px";
+   </script>
+ <script>
+   document.getElementById("but2").style.color="#1f1823";
+  </script>
+  <script>
+    document.getElementById("but2").style.backgroundColor="#d79eb9";
+  </script>
+      <script>
+       document.getElementById("but2").style.borderRadius="10px";
+     </script>
+<!-- ==================================== -->
     <script src="./js/task-1.js " defer tipe="module"></script>
     <script src="./js/task-2.js " defer tipe="module"></script>
     <script src="./js/task-3.js " defer tipe="module"></script>

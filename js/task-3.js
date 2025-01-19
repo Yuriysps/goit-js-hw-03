@@ -15,11 +15,10 @@ console.log('task-3.js');
 //! The filter() method does not change the original array.
 
 function filterArray(numbers, value) {
-    // const numbers = [];
-    // let value 
+
 const newStringArray = [];
     for (let i = 0; i < numbers.length; i++) {
-    //   const number = numbers[i];
+  
           if (numbers[i] > value){
               newStringArray.push(numbers[i])
           } 
